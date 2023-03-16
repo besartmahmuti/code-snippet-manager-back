@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node dist/bin/index.js",
+    "start": "ts-node app.ts",
     "build": "tsc",
     "dev": "nodemon"
   },
