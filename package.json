@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node app.ts",
-    "build": "tsc",
+    "start": "tsc && node dist/bin/index.js",
+    "build": "npx tsc",
     "dev": "nodemon"
   },
   "author": "besart mahmuti",
