@@ -1,5 +1,5 @@
-import express, {  Express } from 'express';
-import { connectToDatabase } from './lib/dbConfig';
+import express, {  Express } from 'express'
+import { connectToDatabase } from './lib/dbConfig'
 
 import publicRouter from './routes/public.routes'
 import snippetRouter from './routes/snippet.routes'
