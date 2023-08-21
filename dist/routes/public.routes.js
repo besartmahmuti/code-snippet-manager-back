@@ -5,10 +5,10 @@ const router = (0, express_1.Router)();
 router.get('/', (req, res) => {
     res.send('Home');
 });
-router.get('/login', (req, res) => {
-    res.send('Login');
-});
-router.get('/register', (req, res) => {
-    res.send('Register');
-});
+// router.get('/login', (req: Request, res: Response) => {
+//     res.send('Loasdasdgin')
+//   });
+// router.get('/register', (req: Request,  res: Response)=>{
+//     res.send('Reasdasdgister')
+// })
 exports.default = router;

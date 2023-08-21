@@ -6,12 +6,12 @@ router.get('/', (req: Request, res: Response) => {
     res.send('Home')
   });
 
-router.get('/login', (req: Request, res: Response) => {
-    res.send('Login')
-  });
+// router.get('/login', (req: Request, res: Response) => {
+//     res.send('Loasdasdgin')
+//   });
 
-router.get('/register', (req: Request,  res: Response)=>{
-    res.send('Register')
-})
+// router.get('/register', (req: Request,  res: Response)=>{
+//     res.send('Reasdasdgister')
+// })
 
 export default router
